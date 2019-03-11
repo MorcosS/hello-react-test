@@ -9,7 +9,9 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $GITHUB_TOKEN  
+  provider: github
+  domain: https://morcoss.github.io/
   project: ./build/
 on:
   branch: master

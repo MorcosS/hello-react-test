@@ -7,9 +7,9 @@ cache:
 script:
   - npm run build
 deploy:
-  provider: github
-  skip_cleanup: true
-  domain: https://morcoss.github.io/
+  provider: pages
+  skip-cleanup: true
+  github-token: 88f3e6746a11aa52b175b6688fa024aa56b77f84 
   project: ./build/
 on:
   branch: master

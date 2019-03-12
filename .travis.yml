@@ -9,6 +9,8 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
+  email:  morkos.said@gmail.com
+  name: MorcosS
   github-token: $GITHUB_TOKEN  
   domain: https://morcoss.github.io/
   project: ./build/

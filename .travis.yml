@@ -5,11 +5,12 @@ cache:
   directories:
     - node_modules
 script:
-  - npm run build
+  - npm run deploy
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  github-token: $GITHUB_TOKEN  
+  domain: https://morcoss.github.io/
   project: ./build/
 on:
   branch: master

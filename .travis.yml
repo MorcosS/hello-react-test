@@ -9,7 +9,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  project: ./build/
+  local-dir: ./build/
   email:  morkos.said@gmail.com
   name: MorcosS
   github-token: $GITHUB_TOKEN  

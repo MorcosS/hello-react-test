@@ -37,4 +37,5 @@ jobs:
           command: |
               git config --global user.email morkos.said@gmail.com
               git config --global user.name MorcosS
+              ghr -t ${GH_TOKEN}
               npm run deploy

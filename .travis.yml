@@ -1,18 +1,18 @@
-language: node_js
-node_js:
-  - "stable"
-cache:
-  directories:
-    - node_modules
-script:
-  - npm run build
-deploy:
-  provider: pages
-  skip-cleanup: true
-  local-dir: ./build/
-  email:  morkos.said@gmail.com
-  name: MorcosS
-  github-token: $GITHUB_TOKEN  
-  domain: https://morcoss.github.io/
-on:
-  branch: master
+# language: node_js
+# node_js:
+#   - "stable"
+# cache:
+#   directories:
+#     - node_modules
+# script:
+#   - npm run build
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   local-dir: ./build/
+#   email:  morkos.said@gmail.com
+#   name: MorcosS
+#   github-token: $GITHUB_TOKEN  
+#   domain: https://morcoss.github.io/
+# on:
+#   branch: master
